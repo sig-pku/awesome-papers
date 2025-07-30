@@ -13,6 +13,7 @@ This work employs discrete, smooth triangles as 3D representation, integrating t
 ### [CVPR25] [Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering](https://arxiv.org/abs/2412.04459)
 This work incorporates a rasterization process on adaptive sparse voxels, achieving state-of-the-art comparable novel-view synthesis results, and compatible with grid-based 3D processing techniques.
 
+## Human Motion Generation
 ### [TPAMI23] [Human motion generation: A survey](https://arxiv.org/abs/2307.10894)
 This survey delivers the first comprehensive overview of conditional human motion generation, systematically reviewing text-, audio-, and scene-conditioned methods, datasets, metrics, and future challenges.
 
