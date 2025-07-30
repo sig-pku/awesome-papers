@@ -3,7 +3,8 @@
 Hi there!👋
 We are from the Spatial Intelligence Group (SIG) at Peking University.
 This is a collection of awesome papers discussed in our seminars.
-We categorize them into different topics, and we hope this can be a starting point for your literature survey and research in these topics.
+We have organized them into various categories to provide an effective starting point for your literature surveys and research exploration.
+Enjoy your reading!
 
 
 ### Novel 3D Shape Representation
