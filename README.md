@@ -7,7 +7,7 @@ We have organized them into various categories to provide an effective starting 
 Enjoy your reading!
 
 ### 3D Generation
--  [SIGGRAPH25] [BANG: Dividing 3D Assets via Generative Exploded Dynamics](https://arxiv.org/abs/2507.21493)
+-  [SIGGRAPH25] [BANG: Dividing 3D Assets via Generative Exploded Dynamics](https://arxiv.org/abs/2507.21493) ✨
 
    BANG is a generative 3D design framework that enables intuitive, part-level decomposition and manipulation of 3D objects through smooth exploded views and user-guided controls, enhancing creativity and practical workflows.
 
