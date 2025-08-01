@@ -6,6 +6,10 @@ This is a collection of awesome papers discussed in our seminars.
 We have organized them into various categories to provide an effective starting point for your literature surveys and research exploration.
 Enjoy your reading!
 
+### 3D Generation
+-  [SIGGRAPH25] [BANG: Dividing 3D Assets via Generative Exploded Dynamics](https://arxiv.org/abs/2507.21493)
+
+   BANG is a generative 3D design framework that enables intuitive, part-level decomposition and manipulation of 3D objects through smooth exploded views and user-guided controls, enhancing creativity and practical workflows.
 
 ### Novel 3D Shape Representation
 -  [CVPR25] [3D Student Splatting and Scooping](https://arxiv.org/abs/2503.10148)
@@ -53,7 +57,7 @@ Enjoy your reading!
 
   This survey delivers the first comprehensive overview of conditional human motion generation, systematically reviewing text-, audio-, and scene-conditioned methods, datasets, metrics, and future challenges.
 
-- [TOG15] [SMPL: a skinned multi-person linear model](https://dl.acm.org/doi/10.1145/2816795.2818013) ✨
+- [SIGGRAPH15] [SMPL: a skinned multi-person linear model](https://dl.acm.org/doi/10.1145/2816795.2818013) ✨
 
   SMPL is a data-driven, blend-skin-compatible body model that jointly learns identity and pose-dependent shape variation from aligned 3D meshes, outperforming prior models while fitting standard graphics pipelines.
 
