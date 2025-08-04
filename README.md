@@ -6,10 +6,22 @@ This is a collection of awesome papers discussed in our seminars.
 We have organized them into various categories to provide an effective starting point for your literature surveys and research exploration.
 Enjoy your reading!
 
-### 3D Generation
+### Part-Aware 3D Generation
 -  [SIGGRAPH25] [BANG: Dividing 3D Assets via Generative Exploded Dynamics](https://arxiv.org/abs/2507.21493) ✨
 
    BANG is a generative 3D design framework that enables intuitive, part-level decomposition and manipulation of 3D objects through smooth exploded views and user-guided controls, enhancing creativity and practical workflows.
+
+- [Arxiv25] [PartCrafter: Structured 3D Mesh Generation via Compositional Latent Diffusion Transformers](https://arxiv.org/abs/2506.05573)
+  PartCrafter is a unified 3D generative model that synthesizes structured, part-aware 3D meshes from a single image by introducing a compositional latent space based on 3DShape2VecSet and hierarchical attention, enabling end-to-end generation of semantically meaningful object parts。
+
+- [ICCV23] [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/abs/2305.01921)
+  DiffFacto is a generative model for controllable part-based point cloud generation that factorizes part style and configuration distributions and uses a cross-diffusion network to generate coherent shapes with fine-grained part-level control.
+
+- [CVPR25Highlight] [PartGen: Part-level 3D Generation and Reconstruction with Multi-View Diffusion Models](https://arxiv.org/abs/2412.18608)
+  PartGen addresses the lack of structure in 3D assets by formulating 3D generation, part segmentation and completion as multi-view diffusion processes, enabling the generation of coherent, editable part-based 3D objects from text, images, or unstructured 3D inputs.
+
+- [AAAI22] [EditVAE: Unsupervised Parts-Aware Controllable 3D Point Cloud Shape Generation](https://arxiv.org/abs/2110.06679)
+  This paper proposes an unsupervised, parts-aware point cloud generation method by modifying a VAE to jointly model shapes and their schematic part-based structure, enabling disentangled part representations and spatially coherent editing without requiring pre-segmented data.
 
 ### Novel 3D Shape Representation
 -  [CVPR25] [3D Student Splatting and Scooping](https://arxiv.org/abs/2503.10148)
