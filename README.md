@@ -85,3 +85,43 @@ Enjoy your reading!
 
   Sketch2Anim pioneers direct 2D-to-3D storyboard animation through a dual-module diffusion model that maps user sketches to 3D keyposes and trajectories, yielding editable, high-quality motions without expert labor.
 
+### Programmatic 3D Modeling
+
+- [arxiv] [LL3M: Large Language 3D Modelers](https://threedle.github.io/ll3m/)
+
+   LL3M is a multi-agent system that leverages pretrained large language models (LLMs) to generate 3D assets by writing interpretable Python code in Blender.
+
+- [arxiv] [MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds](https://daibingquan.github.io/MeshCoder)
+  
+  MeshCoder is a novel framework that reconstructs complex 3D objects from point clouds into editable Blender Python scripts.
+
+- [CVPR2023] [Infinite Photorealistic Worlds using Procedural Generation](https://infinigen.org/)
+
+  Infinigen is a procedural generator of photorealistic 3D scenes of the natural world. Infinigen is entirely procedural: every asset, from shape to texture, is generated from scratch via randomized mathematical rules, using no external source and allowing infinite variation and composition.
+
+- [CVPR2024] [Infinigen Indoors: Photorealistic Indoor Scenes using Procedural Generation](https://infinigen.org/)
+
+   Infinigen Indoors is a Blender-based procedural generator of photorealistic indoor scenes. It builds upon the existing Infinigen system, which focuses on natural scenes, but expands its coverage to indoor scenes by introducing a diverse library of procedural indoor assets, including furniture, architecture elements, appliances, and other day-to-day objects.
+
+- [Scene Synthesizer](https://scene-synthesizer.github.io/) 
+  
+  A Python package to easily create scenes for robot manipulation tasks.
+
+- [CVPR2025 Highlight] [The Scene Language: Representing Scenes with Programs, Words, and Embeddings](https://ai.stanford.edu/~yzzhang/projects/scene-language/)
+
+  Scene Language is a visual scene representation that concisely and precisely describes the structure, semantics, and identity of visual scenes. It represents a scene with three key components: a program that specifies the hierarchical and relational structure of entities in the scene, words in natural language that summarize the semantic class of each entity, and embeddings that capture the visual identity of each entity. 
+
+- [arxiv] [ShapeLib: Designing a library of programmatic 3D shape abstractions with Large Language Models] (https://arxiv.org/abs/2502.08884)
+
+  ShapeLib is a method that leverages the priors of LLMs to design libraries of programmatic 3D shape abstractions. The system accepts two forms of design intent: text descriptions of functions to include in the library and a seed set of exemplar shapes, and then discovers abstractions that match this design intent with a guided LLM workflow
+
+### Layout Generation
+
+- [CVPR2024] [Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://yueyang1996.github.io/holodeck/)
+
+  Holodeck is a system that generates 3D environments to match a user-supplied prompt fully automatedly. It leverages a large language model (GPT-4) for common sense knowledge about what the scene might look like and uses a large collection of 3D assets from Objaverse to populate the scene with diverse objects. 
+
+- [CVPR2025] [LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](https://ai.stanford.edu/~sunfanyun/layoutvlm/)
+
+   LayoutVLM is a framework and scene layout representation that exploits the semantic knowledge of Vision-Language Models (VLMs) and supports differentiable optimization to ensure physical plausibility. LayoutVLM employs VLMs to generate two mutually reinforcing representations from visually marked images, and a self-consistent decoding process to improve VLMs spatial planning.
+
