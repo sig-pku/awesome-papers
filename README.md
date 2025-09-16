@@ -125,3 +125,20 @@ Enjoy your reading!
 
    LayoutVLM is a framework and scene layout representation that exploits the semantic knowledge of Vision-Language Models (VLMs) and supports differentiable optimization to ensure physical plausibility. LayoutVLM employs VLMs to generate two mutually reinforcing representations from visually marked images, and a self-consistent decoding process to improve VLMs spatial planning.
 
+### Diffusion LLMs
+
+- [NeurIPS 2021] [Structured Denoising Diffusion Models in Discrete State-Spaces](https://arxiv.org/abs/2107.03006)
+
+  This paper introduces Discrete Denoising Diffusion Probabilistic Models (D3PMs), which adapt diffusion models for discrete data by using more flexible corruption processes and a novel loss function.
+  
+- [arxiv] [Large Language Diffusion Models](https://arxiv.org/abs/2502.09992)
+
+  This paper introduces LLaDA, a diffusion-based language model that challenges the dominance of autoregressive models by demonstrating competitive performance in in-context learning, instruction following, and even surpassing GPT-4o in specific tasks, suggesting that key LLM capabilities are not exclusive to autoregressive architectures.
+  
+- [arxiv] [Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding](https://arxiv.org/abs/2505.22618)
+
+   This paper closes the performance gap between Diffusion and autoregressive LLMs by introducing a novel block-wise KV Cache and a confidence-aware parallel decoding strategy, which together achieve a massive throughput improvement with minimal accuracy loss.
+
+- [arxiv] [Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models](https://arxiv.org/abs/2505.10446)
+
+   This paper introduces the Diffusion Chain of Lateral Thought (DCoLT), a novel framework that uses reinforcement learning to optimize the entire non-linear, bidirectional reasoning trajectory within diffusion language models, significantly boosting their performance on complex math and code generation tasks.
