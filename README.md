@@ -111,15 +111,19 @@ Enjoy your reading!
 
   Scene Language is a visual scene representation that concisely and precisely describes the structure, semantics, and identity of visual scenes. It represents a scene with three key components: a program that specifies the hierarchical and relational structure of entities in the scene, words in natural language that summarize the semantic class of each entity, and embeddings that capture the visual identity of each entity. 
 
-- [arxiv] [ShapeLib: Designing a library of programmatic 3D shape abstractions with Large Language Models] (https://arxiv.org/abs/2502.08884)
+- [arxiv] [ShapeLib: Designing a library of programmatic 3D shape abstractions with Large Language Models](https://arxiv.org/abs/2502.08884)
 
   ShapeLib is a method that leverages the priors of LLMs to design libraries of programmatic 3D shape abstractions. The system accepts two forms of design intent: text descriptions of functions to include in the library and a seed set of exemplar shapes, and then discovers abstractions that match this design intent with a guided LLM workflow
 
-### Layout Generation
+### Layout / Scene Generation
 
 - [CVPR2024] [Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://yueyang1996.github.io/holodeck/)
 
-  Holodeck is a system that generates 3D environments to match a user-supplied prompt fully automatedly. It leverages a large language model (GPT-4) for common sense knowledge about what the scene might look like and uses a large collection of 3D assets from Objaverse to populate the scene with diverse objects. 
+  Holodeck is a system that generates 3D environments to match a user-supplied prompt fully automatedly. It leverages a large language model (GPT-4) for common sense knowledge about what the scene might look like and uses a large collection of 3D assets from Objaverse to populate the scene with diverse objects.
+
+- [arxiv] [HOLODECK 2.0: Vision-Language-Guided 3D World Generation with Editing](https://arxiv.org/abs/2508.05899)
+
+   HOLODECK 2.0 is an advanced vision-language-guided framework for 3D world generation with support for interactive scene editing based on human feedback. It leverages vision-language models (VLMs) to identify and parse the objects required in a scene and generates corresponding high-quality assets via state-of-the-art 3D generative models. It then iteratively applies spatial constraints derived from the VLMs to achieve semantically coherent and physically plausible layouts.
 
 - [CVPR2025] [LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](https://ai.stanford.edu/~sunfanyun/layoutvlm/)
 
