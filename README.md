@@ -146,3 +146,21 @@ Enjoy your reading!
 - [arxiv] [Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models](https://arxiv.org/abs/2505.10446)
 
    This paper introduces the Diffusion Chain of Lateral Thought (DCoLT), a novel framework that uses reinforcement learning to optimize the entire non-linear, bidirectional reasoning trajectory within diffusion language models, significantly boosting their performance on complex math and code generation tasks.
+
+### Quadrilateral Mesh Generation
+
+- [SIGGRAPH 2015] [Instant field-aligned meshes](https://dl.acm.org/doi/10.1145/2816795.2818078)
+
+  This paper is the basis for generating quadrilateral meshes based on the Field Alignment method. It extracts quadrilateral meshes by aligning orientation fields and position fields. The core ideas include hierarchical levels and extrinsic smoothness.
+
+- [SIGGRAPH Asia 2017] [Field-aligned online surface reconstruction](https://dl.acm.org/doi/10.1145/3072959.3073635)
+
+  This paper is an improvement (real-time) of the instant field-aligned meshes method. The core technologies include replacing the static multi-level structure with an octree that can be updated in real time, and local mesh extraction and stitching.
+
+- [SIGGRAPH 2025] [NeurCross: A Neural Approach to Computing Cross Fields for Quad Mesh Generation](https://arxiv.org/abs/2405.13745)
+
+  This paper uses neural networks to optimize the orientation field and simultaneously jointly optimize an sdf field as the implicit supervision of the orientation field (aligning the eigenvectors of the orientation field with the Hessian matrix of the sdf field).
+
+- [SIGGRAPH Asia 2025] [CrossGen: Learning and Generating Cross Fields for Quad Meshing](https://arxiv.org/abs/2506.07020)
+
+  This paper uses neural networks to complete the prediction (Feed Forward) of orientation fields and sdf fields, and the training process is to directly regression the optimization results of NeurCross.
