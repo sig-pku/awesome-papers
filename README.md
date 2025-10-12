@@ -164,3 +164,21 @@ Enjoy your reading!
 - [SIGGRAPH Asia 2025] [CrossGen: Learning and Generating Cross Fields for Quad Meshing](https://arxiv.org/abs/2506.07020)
 
   This paper uses neural networks to complete the prediction (Feed Forward) of orientation fields and sdf fields, and the training process is to directly regression the optimization results of NeurCross.
+
+### Part Segmentation
+
+- [ICCV 2025] [PartField: Learning 3D Feature Fields for Part Segmentation and Beyond](https://arxiv.org/abs/2504.11451)
+
+  This paper proposes a feedforward model that predicts part-based feature fields for 3D shapes. The learned features can be clustered to yield a high-quality part decomposition, outperforming previous open-world 3D part segmentation approaches in both quality and speed.
+
+- [arxiv] [GeoSAM2: Unleashing the Power of SAM2 for 3D Part Segmentation](https://arxiv.org/abs/2508.14036)
+
+  This paper proposes a prompt-controllable framework for 3D part segmentation that casts the task as multi-view 2D mask prediction. By aligning the paradigm of 3D segmentation with SAM2, it leverages interactive 2D inputs to unlock controllability and precision in object-level part understanding.
+
+- [arxiv] [P3-SAM: Native 3D Part Segmentation](https://arxiv.org/abs/2509.06784)
+
+  This paper proposes a native 3D point-promptable part segmentation model termed P3-SAM, designed to fully automate the segmentation of any 3D objects into components. Inspired by SAM, P3-SAM consists of a feature extractor, multiple segmentation heads, and an IoU predictor, enabling interactive segmentation for users.
+
+- [arxiv] [PartSAM: A Scalable Promptable Part Segmentation Model Trained on Native 3D Data](https://arxiv.org/abs/2509.21965)
+
+  This paper proposes a native 3D point-promptable part segmentation model, outperforming existing approaches by allowing RGB/Normal inputs to provide additional information.
