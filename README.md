@@ -164,3 +164,23 @@ Enjoy your reading!
 - [SIGGRAPH Asia 2025] [CrossGen: Learning and Generating Cross Fields for Quad Meshing](https://arxiv.org/abs/2506.07020)
 
   This paper uses neural networks to complete the prediction (Feed Forward) of orientation fields and sdf fields, and the training process is to directly regression the optimization results of NeurCross.
+
+### Neural Mesh Compression
+- [SIGGRAPH 2020] [Neural Subdivision](https://arxiv.org/abs/2005.01819)
+
+    This paper uses neural networks to predict the vertex positions after subdivision, and propose successive self-parametrization to generate training data. It can generalize well even when trained on single mesh.
+- [SIGGRAPH 2023] [Neural Progressive Meshes](https://arxiv.org/abs/2308.05741)
+    
+     This paper uses a subdivision-based encoder-decoder architecture to compress and transmit high-resolution meshes progressively. As more features are received, the reconstruction quality improves progressively.
+
+- [SIGGRAPH 2024] [Neural Geometry Fields For Meshes](https://dl.acm.org/doi/10.1145/3641519.3657399)
+
+    This paper represents 3D meshes with coarse quadrangular patches and neural displacement fields, which is trained using inverse rendering. It achieves high compression ratios while preserving fine geometric details.
+
+- [Eurographics 2025] [Mesh Compression with Quantized Neural Displacement Fields](https://arxiv.org/abs/2504.01027)
+
+    This paper encodes a displacement field that refines the coarse version of the 3D mesh surface to be compressed using a small neural network. They use weight quantization and entropy coding to further reduce the size of the neural network.
+
+- [arxiv] [Mesh Processing Non-Meshes via Neural Displacement Fields](https://arxiv.org/html/2508.12179v1)
+
+    This paper learns a neural map from coarse mesh approximation to  diverse surface representations including point clouds, neural fields and etc. It enables fast extraction of manifold and Delaunay meshes for intrinsic shape analysis.
