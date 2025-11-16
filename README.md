@@ -202,3 +202,21 @@ Enjoy your reading!
 - [arxiv] [Mesh Processing Non-Meshes via Neural Displacement Fields](https://arxiv.org/html/2508.12179v1)
 
     This paper learns a neural map from coarse mesh approximation to  diverse surface representations including point clouds, neural fields and etc. It enables fast extraction of manifold and Delaunay meshes for intrinsic shape analysis.
+
+### Unified Models for 3D
+
+- [CVPR 2023] [ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding](https://arxiv.org/abs/2212.05171)
+
+    This paper learns a 3D representation space aligned with the common image-text space, using a small number of automatically synthesized triplets. It effectively improves the performance of multiple recent 3D backbones.
+
+- [NeurIPS 2023 Spotlight] [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981)
+
+    This paper proposes to inject the 3D world into large language models and introduce a whole new family of 3D-LLMs. 3D-LLMs can take 3D point clouds and their features as input and perform a diverse set of 3D-related tasks, including captioning, dense captioning, 3D question answering, and so on.
+
+- [ECCV 2024 Best Paper Candidate] [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911)
+
+    This paper enables LLMs to understand point clouds and offering a new avenue beyond 2D visual data. It leverages a point cloud encoder with a powerful LLM to effectively fuse geometric, appearance, and linguistic information.
+
+- [NeurlPS 2025 Spotlight] [ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding](https://arxiv.org/abs/2506.01853)
+
+    This paper proposes a native 3D large language model capable of understanding and generating 3D assets and text in any sequence. By performing instruction-based training of the Qwen-2.5-vl-7B-Instruct model on the 3D-Alpaca dataset, their work provides an effective attempt at extending multimodal models with basic 3D capabilities.
